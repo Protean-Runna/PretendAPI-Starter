@@ -18,8 +18,8 @@ I just get bored of setting up all the same dependencies, remaking the same cont
 ### Setting Up
 
 ```
-git clone
-cd PretendApi
+git clone https://github.com/Protean-Runna/PretendAPI-Starter.git
+cd PretendAPI-Starter
 npm istall
 node index.js
 ```
