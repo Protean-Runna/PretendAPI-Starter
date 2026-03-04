@@ -1,0 +1,20 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Logs
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# dependencies
+node_modules
+
+
+# Editor directories, files
+
+.vscode/
+.env
+.env.*
