@@ -1,15 +1,15 @@
 # PretendAPI
 
-Honestly, this is my personal starter, of sorts, for node.js APIs
+Honestly, this is my personal starter, of sorts, for small node.js API projects
 
 I'll clone this repo for every time I want to experiment with APIs for:
 
 *  firebase
 *  mongoDB
 
-Templates for either ready to mess with without the boilerplate fluff.
+Templates for either ready to mess with, without the boilerplate fluff.
 
-It's very scuffed to have both in the same template but one can always just focus on one or the other.
+It's very scuffed to have both in the same template but if I want to focus on one or the other, I'll just remove what I don't need.
 
 ### Why this exists
 
@@ -29,6 +29,6 @@ Easy Peasy.
 ### Using this repo
 
 1. Clone Repo
-2. Experiment with making controllers and routes for a thing or two
+2. Experiment with making controllers, models and routes for a thing or two
 3. finish it or leave it on the shelf to gather dust
 4. Return to Step 1
