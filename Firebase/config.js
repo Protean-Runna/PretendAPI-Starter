@@ -15,6 +15,8 @@ admin.initializeApp({
 // Initialize Firestore DB here;
 const db = admin.firestore();
 
+// Collections will go here;
+const Mockers = db.collection("mockProduct");
 
 
-module.exports = {admin, };
+module.exports = {admin, db, Mockers};

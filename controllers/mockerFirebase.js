@@ -1,5 +1,6 @@
 // This serves as a template for an api connected to firebase
 // All the controllers for CRUD ACTIONS go here
+const Mockers = require('../Firebase/config');
 
 
 // GET ALL
@@ -39,7 +40,7 @@ const createMocker = async (data) => {
 };
 
 // UPDATE
-async function updateMocker(id, data) {
+const updateMocker = async (id, data) => {
   const MockerRef = Mockers.doc(id);
   await MockerRef.update(data);
   const Mocker = { id, ...data }
@@ -48,7 +49,7 @@ async function updateMocker(id, data) {
 }
 
 // DELETE
-async function deleteMocker(id) {
+const deleteMocker = async (id) => {
   const MockerRef = Mockers.doc(id);
   await MockerRef.delete();
 
