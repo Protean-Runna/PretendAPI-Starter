@@ -9,7 +9,7 @@ I'll clone this repo for every time I want to experiment with APIs for:
 
 Templates for either ready to mess with, without the boilerplate fluff.
 
-It's very scuffed to have both in the same template but if I want to focus on one or the other, I'll just remove what I don't need.
+It's probably not efficient to have both in the same template but if I want to focus on one or the other, I'll just remove what I don't need.
 
 ### Why this exists
 
